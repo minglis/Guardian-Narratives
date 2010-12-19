@@ -42,7 +42,7 @@
 		NSString *searchTerm = [self urlEncodeString:[searchTerms text]];
 		displaySearchTerms.text = [NSString stringWithFormat: @"You searched for %@", searchTerm];
 		
-		NSString* apiURL = [NSString stringWithFormat:@"http://content.guardianapis.com/search?q=%@&page-size=10&order-by=newest&format=json&show-fields=trailText", searchTerm, 10];		
+		NSString* apiURL = [NSString stringWithFormat:@"http://content.guardianapis.com/search?q=%@&page-size=10&order-by=newest&format=json&show-fields=trailText&show-tags=all", searchTerm, 10];		
 		[[ASyncJSONDownloader sharedASyncJSONDownloader] queueJSONDownloadFromURLString:apiURL target:self userInfo:@"Search"];
 	}
 	
