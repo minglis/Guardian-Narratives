@@ -323,7 +323,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7E9BB76912BE07E80017CC35</string>
+										<string>7E9BB9AB12BE34C40017CC35</string>
 										<key>history</key>
 										<array>
 											<string>7ECD98B212BD14C800E49FB7</string>
@@ -335,16 +335,18 @@
 											<string>7E7CCB6D12BD38C0003660A7</string>
 											<string>7E7CCB7712BD39A7003660A7</string>
 											<string>7EBA347C12BD45610092ABF6</string>
-											<string>7EBA34A512BD46240092ABF6</string>
 											<string>7EBA34B812BD46F00092ABF6</string>
 											<string>7EBA34B912BD46F00092ABF6</string>
 											<string>7EB5941112BD5E25004E718C</string>
 											<string>7EB5946F12BD6129004E718C</string>
 											<string>7EB5949912BD6448004E718C</string>
-											<string>7EB5949B12BD6448004E718C</string>
-											<string>7EB594E812BD68B8004E718C</string>
-											<string>7EB594E912BD68B8004E718C</string>
-											<string>7EB5951A12BD700C004E718C</string>
+											<string>7E9BB7A712BE1B2B0017CC35</string>
+											<string>7E9BB7A812BE1B2B0017CC35</string>
+											<string>7E9BB85B12BE23910017CC35</string>
+											<string>7E9BB89912BE28AF0017CC35</string>
+											<string>7E9BB89A12BE28AF0017CC35</string>
+											<string>7E9BB96A12BE31B00017CC35</string>
+											<string>7E9BB96B12BE31B00017CC35</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -542,9 +544,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
+		<string>7E9BB89112BE26F70017CC35</string>
+		<string>7E9BB89212BE26F70017CC35</string>
+		<string>7E9BB80212BE20680017CC35</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>7E8A7DFF12BBE39200ABFAD1</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Developer/Projects/iPad/GuardianNarratives/GuardianNarratives.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -569,7 +574,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>GuardianNarrativesViewController.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -586,6 +591,8 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -880,6 +887,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -925,7 +934,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
@@ -1367,33 +1376,40 @@
 			<integer>0</integer>
 		</dict>
 		<dict>
+			<key>FirstTimeWindowDisplayed</key>
+			<false/>
 			<key>Identifier</key>
 			<string>windowTool.refactoring</string>
 			<key>IncludeInToolsMenu</key>
 			<integer>0</integer>
+			<key>IsVertical</key>
+			<true/>
 			<key>Layout</key>
 			<array>
 				<dict>
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<integer>1</integer>
+							<key>ContentConfiguration</key>
+							<dict>
+								<key>PBXProjectModuleGUID</key>
+								<string>7E9BB80112BE20680017CC35</string>
+							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{0, 0}, {500, 335}</string>
+								<string>{{0, 0}, {500, 315}}</string>
 								<key>RubberWindowFrame</key>
-								<string>{0, 0}, {500, 335}</string>
+								<string>1045 389 500 356 1024 -32 1280 800 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCRefactoringModule</string>
 							<key>Proportion</key>
-							<string>100%</string>
+							<string>315pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>100%</string>
+					<string>315pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -1402,8 +1418,20 @@
 			<array>
 				<string>XCRefactoringModule</string>
 			</array>
+			<key>StatusbarIsVisible</key>
+			<true/>
+			<key>TableOfContents</key>
+			<array>
+				<string>7E9BB80212BE20680017CC35</string>
+				<string>7E9BB80312BE20680017CC35</string>
+				<string>7E9BB80112BE20680017CC35</string>
+			</array>
 			<key>WindowString</key>
-			<string>200 200 500 356 0 0 1920 1200 </string>
+			<string>1045 389 500 356 1024 -32 1280 800 </string>
+			<key>WindowToolGUID</key>
+			<string>7E9BB80212BE20680017CC35</string>
+			<key>WindowToolIsVisible</key>
+			<false/>
 		</dict>
 	</array>
 </dict>

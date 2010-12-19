@@ -1,7 +1,7 @@
 TGuardianNarratives
 v7
 r0
-t314443751.863439
+t314455095.986686
 cCheck dependencies
 cProcessInfoPlistFile /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/Info.plist GuardianNarratives-Info.plist
 cCompileXIB /Developer/Projects/iPad/GuardianNarratives/MainWindow.xib
@@ -107,16 +107,16 @@ i"GuardianNarrativesAppDelegate.h"
 i"GuardianNarrativesViewController.h"
 
 N/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.h
-c000000004D0D2C9C00000000000003B0
-t1292709020
-s944
+c000000004D0DEB2B000000000000046B
+t1292757803
+s1131
 i<UIKit/UIKit.h>
 i"ASyncJSONDownloader.h"
 
 N/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m
-c000000004D0DD0640000000000000F45
-t1292750948
-s3909
+c000000004D0DFCB2000000000000166B
+t1292762290
+s5739
 i"GuardianNarrativesViewController.h"
 
 N/Developer/Projects/iPad/GuardianNarratives/Classes/JSON/JSON.h
@@ -197,9 +197,9 @@ s8301
 i"SBJsonWriter.h"
 
 N/Developer/Projects/iPad/GuardianNarratives/GuardianNarrativesViewController.xib
-c000000004D0D2BAC0000000000008358
-t1292708780
-s33624
+c000000004D0DE1870000000000008AAC
+t1292755335
+s35500
 
 N/Developer/Projects/iPad/GuardianNarratives/GuardianNarratives_Prefix.pch
 c000000004D0BAC0C00000000000000CD
@@ -214,20 +214,20 @@ t1292610572
 s19831
 
 N/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app
-t1292750951
+t1292762295
 s272
 
 N/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app.dSYM
-t1292750951
+t1292762295
 s102
 
 N/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives
-t1292750951
-s70356
+t1292762295
+s75192
 
 N/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarrativesViewController.nib
-t1292709367
-s3045
+t1292755341
+s3200
 
 N/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/Info.plist
 t1292709366
@@ -263,12 +263,12 @@ t1292709353
 s1791
 
 N/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/GuardianNarrativesAppDelegate.o
-t1292709367
-s50864
+t1292758033
+s50932
 
 N/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/GuardianNarrativesViewController.o
-t1292750951
-s61480
+t1292762291
+s66948
 
 N/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/NSObject+SBJSON.o
 t1292709367
@@ -316,7 +316,7 @@ s1238
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies314443751#314443751#0(0"0(0#1#0"9007637348679712#0"0#
+lSLF07#2@18"Check dependencies314455095#314455095#0(0"0(0#1#0"8615911680#0"0#
 
 CCompileC build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/ASyncDownloadOperation.o /Developer/Projects/iPad/GuardianNarratives/Classes/ASyncDownloadOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s314402167.127760
@@ -358,8 +358,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Developer/Projects/iPad/GuardianNarratives/Classes/ASyncJSONDownloader.m314402167#314402167#0(0"0(0#0#73"/Developer/Projects/iPad/GuardianNarratives/Classes/ASyncJSONDownloader.m8621466624#2227"    cd /Developer/Projects/iPad/GuardianNarratives    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-generated-files.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-own-target-headers.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-all-target-headers.hmap -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-project-headers.hmap -F/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator -I/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/include -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources/i386 -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources -include /var/folders/Vz/VzgzGfVSEgS4G-udQ8Rj5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuardianNarratives_Prefix-eplgnqeyfpzmovebmsiguslmjuci/GuardianNarratives_Prefix.pch -c /Developer/Projects/iPad/GuardianNarratives/Classes/ASyncJSONDownloader.m -o /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/ASyncJSONDownloader.o0#
 
 CCompileC build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/GuardianNarrativesAppDelegate.o /Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314402167.051579
-e314402167.139637
+s314450833.700614
+e314450833.776651
 r1
 xCompileC
 xbuild/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/GuardianNarrativesAppDelegate.o
@@ -368,11 +368,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesAppDelegate.m314402167#314402167#0(0"0(0#0#83"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesAppDelegate.m8618534016#2247"    cd /Developer/Projects/iPad/GuardianNarratives    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-generated-files.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-own-target-headers.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-all-target-headers.hmap -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-project-headers.hmap -F/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator -I/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/include -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources/i386 -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources -include /var/folders/Vz/VzgzGfVSEgS4G-udQ8Rj5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuardianNarratives_Prefix-eplgnqeyfpzmovebmsiguslmjuci/GuardianNarratives_Prefix.pch -c /Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesAppDelegate.m -o /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/GuardianNarrativesAppDelegate.o0#
+lSLF07#2@91"Compile /Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesAppDelegate.m314450833#314450833#0(0"0(0#0#83"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesAppDelegate.m8613511552#2247"    cd /Developer/Projects/iPad/GuardianNarratives    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-generated-files.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-own-target-headers.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-all-target-headers.hmap -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-project-headers.hmap -F/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator -I/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/include -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources/i386 -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources -include /var/folders/Vz/VzgzGfVSEgS4G-udQ8Rj5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuardianNarratives_Prefix-eplgnqeyfpzmovebmsiguslmjuci/GuardianNarratives_Prefix.pch -c /Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesAppDelegate.m -o /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/GuardianNarrativesAppDelegate.o0#
 
 CCompileC build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/GuardianNarrativesViewController.o /Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314443751.289505
-e314443751.480041
+s314455091.243217
+e314455091.399347
 r1
 xCompileC
 xbuild/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/GuardianNarrativesViewController.o
@@ -381,18 +381,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
+o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m: In function '-[GuardianNarrativesViewController aSyncJSONDownloadDidFinishWithObject:userInfo:]':
+o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:33: warning: 'NSObject' may not respond to '-objectForKey:'
+o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:33: warning: (Messages without a matching method signature
+o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:33: warning: will be assumed to return 'id' and accept
+o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:33: warning: '...' as arguments.)
 o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m: In function '-[GuardianNarrativesViewController tableView:numberOfRowsInSection:]':
-o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:56: warning: 'NSObject' may not respond to '-objectForKey:'
-o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:56: warning: (Messages without a matching method signature
-o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:56: warning: will be assumed to return 'id' and accept
-o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:56: warning: '...' as arguments.)
+o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:103: warning: 'NSObject' may not respond to '-objectForKey:'
 o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m: In function '-[GuardianNarrativesViewController tableView:cellForRowAtIndexPath:]':
-o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:67: warning: 'NSObject' may not respond to '-objectForKey:'
+o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:114: warning: 'NSObject' may not respond to '-objectForKey:'
 o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m: At top level:
-o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:131: warning: incomplete implementation of class 'GuardianNarrativesViewController'
-o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:131: warning: method definition for '-aSyncDownloadDidFinishWithObject:userInfo:' not found
-o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:131: warning: class 'GuardianNarrativesViewController' does not fully implement the 'ASyncDownloadOperationDelegate' protocol
-lSLF07#2@94"Compile /Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314443751#314443751#0(1712"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m: In function '-[GuardianNarrativesViewController tableView:numberOfRowsInSection:]':/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:56: warning: 'NSObject' may not respond to '-objectForKey:'/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:56: warning: (Messages without a matching method signature/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:56: warning: will be assumed to return 'id' and accept/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:56: warning: '...' as arguments.)/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m: In function '-[GuardianNarrativesViewController tableView:cellForRowAtIndexPath:]':/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:67: warning: 'NSObject' may not respond to '-objectForKey:'/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m: At top level:/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:131: warning: incomplete implementation of class 'GuardianNarrativesViewController'/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:131: warning: method definition for '-aSyncDownloadDidFinishWithObject:userInfo:' not found/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:131: warning: class 'GuardianNarrativesViewController' does not fully implement the 'ASyncDownloadOperationDelegate' protocol7(22@46"'NSObject' may not respond to '-objectForKey:'314443751#172#147#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314443748#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)314443751#319#146#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314443748#56#0#56#0#0"0(22@46"'NSObject' may not respond to '-objectForKey:'314443751#900#147#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314443748#67#0#67#0#26"'*' may not respond to '*'0(23@13"At top level:314443751#1047#102#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314443748#0#0#0#0#0"0(22@69"Incomplete implementation of class 'GuardianNarrativesViewController'314443751#1149#171#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314443748#131#0#131#0#38"incomplete implementation of class '*'0(22@77"Method definition for '-aSyncDownloadDidFinishWithObject:userInfo:' not found314443751#1320#179#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314443748#131#0#131#0#35"method definition for '*' not found0(22@111"Class 'GuardianNarrativesViewController' does not fully implement the 'ASyncDownloadOperationDelegate' protocol314443751#1499#213#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314443748#131#0#131#0#51"class '*' does not fully implement the '*' protocol0(0#0#86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m8532478930910863360#2253"    cd /Developer/Projects/iPad/GuardianNarratives    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-generated-files.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-own-target-headers.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-all-target-headers.hmap -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-project-headers.hmap -F/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator -I/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/include -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources/i386 -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources -include /var/folders/Vz/VzgzGfVSEgS4G-udQ8Rj5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuardianNarratives_Prefix-eplgnqeyfpzmovebmsiguslmjuci/GuardianNarratives_Prefix.pch -c /Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m -o /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/GuardianNarrativesViewController.o0#
+o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:186: warning: incomplete implementation of class 'GuardianNarrativesViewController'
+o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:186: warning: method definition for '-aSyncDownloadDidFinishWithObject:userInfo:' not found
+o/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:186: warning: class 'GuardianNarrativesViewController' does not fully implement the 'ASyncDownloadOperationDelegate' protocol
+lSLF07#2@94"Compile /Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314455091#314455091#0(2047"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m: In function '-[GuardianNarrativesViewController aSyncJSONDownloadDidFinishWithObject:userInfo:]':/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:33: warning: 'NSObject' may not respond to '-objectForKey:'/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:33: warning: (Messages without a matching method signature/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:33: warning: will be assumed to return 'id' and accept/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:33: warning: '...' as arguments.)/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m: In function '-[GuardianNarrativesViewController tableView:numberOfRowsInSection:]':/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:103: warning: 'NSObject' may not respond to '-objectForKey:'/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m: In function '-[GuardianNarrativesViewController tableView:cellForRowAtIndexPath:]':/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:114: warning: 'NSObject' may not respond to '-objectForKey:'/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m: At top level:/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:186: warning: incomplete implementation of class 'GuardianNarrativesViewController'/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:186: warning: method definition for '-aSyncDownloadDidFinishWithObject:userInfo:' not found/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m:186: warning: class 'GuardianNarrativesViewController' does not fully implement the 'ASyncDownloadOperationDelegate' protocol8(22@46"'NSObject' may not respond to '-objectForKey:'314455091#186#147#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314455090#33#0#33#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)314455091#333#146#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314455090#33#0#33#0#0"0(22@46"'NSObject' may not respond to '-objectForKey:'314455091#914#148#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314455090#103#0#103#0#26"'*' may not respond to '*'0(22@46"'NSObject' may not respond to '-objectForKey:'314455091#1234#148#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314455090#114#0#114#0#26"'*' may not respond to '*'0(23@13"At top level:314455091#1382#102#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314455090#0#0#0#0#0"0(22@69"Incomplete implementation of class 'GuardianNarrativesViewController'314455091#1484#171#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314455090#186#0#186#0#38"incomplete implementation of class '*'0(22@77"Method definition for '-aSyncDownloadDidFinishWithObject:userInfo:' not found314455091#1655#179#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314455090#186#0#186#0#35"method definition for '*' not found0(22@111"Class 'GuardianNarrativesViewController' does not fully implement the 'ASyncDownloadOperationDelegate' protocol314455091#1834#213#0(6@86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m314455090#186#0#186#0#51"class '*' does not fully implement the '*' protocol0(0#0#86"/Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m8613531616#2253"    cd /Developer/Projects/iPad/GuardianNarratives    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-generated-files.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-own-target-headers.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-all-target-headers.hmap -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-project-headers.hmap -F/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator -I/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/include -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources/i386 -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources -include /var/folders/Vz/VzgzGfVSEgS4G-udQ8Rj5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuardianNarratives_Prefix-eplgnqeyfpzmovebmsiguslmjuci/GuardianNarratives_Prefix.pch -c /Developer/Projects/iPad/GuardianNarratives/Classes/GuardianNarrativesViewController.m -o /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/GuardianNarrativesViewController.o0#
 
 CCompileC build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/NSObject+SBJSON.o /Developer/Projects/iPad/GuardianNarratives/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s314402167.212200
@@ -473,12 +475,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@58"Compile /Developer/Projects/iPad/GuardianNarratives/main.m314402167#314402167#0(0"0(0#0#50"/Developer/Projects/iPad/GuardianNarratives/main.m8618794080#2189"    cd /Developer/Projects/iPad/GuardianNarratives    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-generated-files.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-own-target-headers.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-all-target-headers.hmap -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-project-headers.hmap -F/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator -I/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/include -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources/i386 -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources -include /var/folders/Vz/VzgzGfVSEgS4G-udQ8Rj5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuardianNarratives_Prefix-eplgnqeyfpzmovebmsiguslmjuci/GuardianNarratives_Prefix.pch -c /Developer/Projects/iPad/GuardianNarratives/main.m -o /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Developer/Projects/iPad/GuardianNarratives/GuardianNarrativesViewController.xib
-s314402166.381958
-e314402167.048330
+s314448140.952103
+e314448141.602317
 r1
 xCompileXIB
 x/Developer/Projects/iPad/GuardianNarratives/GuardianNarrativesViewController.xib
-lSLF07#2@47"CompileXIB GuardianNarrativesViewController.xib314402166#314402167#0(0"0(0#0#80"/Developer/Projects/iPad/GuardianNarratives/GuardianNarrativesViewController.xib8622272160#640"    cd /Developer/Projects/iPad/GuardianNarratives    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarrativesViewController.nib /Developer/Projects/iPad/GuardianNarratives/GuardianNarrativesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@47"CompileXIB GuardianNarrativesViewController.xib314448140#314448141#0(0"0(0#0#80"/Developer/Projects/iPad/GuardianNarratives/GuardianNarrativesViewController.xib8612986880#640"    cd /Developer/Projects/iPad/GuardianNarratives    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarrativesViewController.nib /Developer/Projects/iPad/GuardianNarratives/GuardianNarrativesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Developer/Projects/iPad/GuardianNarratives/MainWindow.xib
 s314402166.381252
@@ -498,23 +500,23 @@ xguardian_logo.png
 lSLF07#2@22"Copy guardian_logo.png314402166#314402166#0(0"0(0#0#61"/Developer/Projects/iPad/GuardianNarratives/guardian_logo.png8619271616#501"    cd /Developer/Projects/iPad/GuardianNarratives    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Projects/iPad/GuardianNarratives/guardian_logo.png /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app0#
 
 CGenerateDSYMFile /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app.dSYM /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives
-s314443751.785280
-e314443751.841528
+s314455095.954035
+e314455095.982041
 r1
 xGenerateDSYMFile
 x/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app.dSYM
 x/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives
-lSLF07#2@142"GenerateDSYMFile build/Debug-iphonesimulator/GuardianNarratives.app.dSYM build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives314443751#314443751#0(0"0(0#0#113"/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives8601339744#431"    cd /Developer/Projects/iPad/GuardianNarratives    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives -o /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app.dSYM0#
+lSLF07#2@142"GenerateDSYMFile build/Debug-iphonesimulator/GuardianNarratives.app.dSYM build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives314455095#314455095#0(0"0(0#0#113"/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives8649913920#431"    cd /Developer/Projects/iPad/GuardianNarratives    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives -o /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app.dSYM0#
 
 CLd /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives normal i386
-s314443751.480133
-e314443751.785183
+s314455095.903736
+e314455095.953898
 r1
 xLd
 x/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives
 xnormal
 xi386
-lSLF07#2@118"Link /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives314443751#314443751#0(0"0(0#0#0"28429479460798580#980"    cd /Developer/Projects/iPad/GuardianNarratives    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator -F/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator -filelist /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/GuardianNarratives.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives0#
+lSLF07#2@118"Link /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives314455095#314455095#0(0"0(0#0#0"8615325760#980"    cd /Developer/Projects/iPad/GuardianNarratives    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator -F/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator -filelist /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/Objects-normal/i386/GuardianNarratives.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/GuardianNarratives0#
 
 CProcessInfoPlistFile /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app/Info.plist GuardianNarratives-Info.plist
 s314402166.328191
@@ -539,10 +541,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@40"Precompile GuardianNarratives_Prefix.pch314402153#314402154#0(0"0(0#0#73"/Developer/Projects/iPad/GuardianNarratives/GuardianNarratives_Prefix.pch7011663034521515008#2065"    cd /Developer/Projects/iPad/GuardianNarratives    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-generated-files.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-own-target-headers.hmap -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-all-target-headers.hmap -iquote /Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/GuardianNarratives-project-headers.hmap -F/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator -I/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/include -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources/i386 -I/Developer/Projects/iPad/GuardianNarratives/build/GuardianNarratives.build/Debug-iphonesimulator/GuardianNarratives.build/DerivedSources -c /Developer/Projects/iPad/GuardianNarratives/GuardianNarratives_Prefix.pch -o /var/folders/Vz/VzgzGfVSEgS4G-udQ8Rj5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GuardianNarratives_Prefix-eplgnqeyfpzmovebmsiguslmjuci/GuardianNarratives_Prefix.pch.gch0#
 
 CTouch /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app
-s314443751.841614
-e314443751.863225
+s314455095.982483
+e314455095.986632
 r1
 xTouch
 x/Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app
-lSLF07#2@100"Touch /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app314443751#314443751#0(0"0(0#0#0"8598685696#299"    cd /Developer/Projects/iPad/GuardianNarratives    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app0#
+lSLF07#2@100"Touch /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app314455095#314455095#0(0"0(0#0#0"8652087232#299"    cd /Developer/Projects/iPad/GuardianNarratives    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/Projects/iPad/GuardianNarratives/build/Debug-iphonesimulator/GuardianNarratives.app0#
 

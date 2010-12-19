@@ -15,15 +15,61 @@
 @synthesize displaySearchTerms;
 @synthesize searchTerms;
 @synthesize articles;
+@synthesize resultsMessage;
 
 #pragma mark -
 #pragma mark ASyncJSONDownloader Delegate
 
 
 -(void)aSyncJSONDownloadDidFinishWithObject:(NSObject*)parsedJSONObject userInfo:(NSObject*)userInfo {
-	NSLog(@"got JSON:%@", (NSDictionary*)parsedJSONObject);
+//	NSLog(@"got JSON:%@", (NSDictionary*)parsedJSONObject);
+	
+	tags = [[NSMutableDictionary alloc] init];
+	tagCounts = [[NSMutableDictionary alloc] init];
+	
 	NSDictionary* parsedJSONDictionary = (NSDictionary*)parsedJSONObject;
 	results = [parsedJSONDictionary retain];
+	
+	NSDictionary* resultsDict = [results objectForKey:@"response"];
+	
+	NSArray* resultsArray = [(NSDictionary* ) resultsDict objectForKey:@"results"];
+
+	
+	NSLog(@"Results %@",  [resultsDict objectForKey:@"pageSize"]);
+	
+	for(int i = 0; i < [resultsArray count]; i++) {
+		NSDictionary *result = [resultsArray objectAtIndex:i];
+
+		NSArray *tagsForArticleArray = [result objectForKey:@"tags"];
+		
+		for(int j=0; j<[tagsForArticleArray count]; j++) {
+			NSDictionary *tag = [tagsForArticleArray objectAtIndex:j];
+			NSString *tagType = [tag objectForKey:@"type"];
+			if([tagType isEqualToString:@"keyword"]) {
+
+				NSString *webTitle = [tag objectForKey:@"webTitle"];
+				NSString *tagId = [tag objectForKey:@"id"];
+				
+				[tags setObject:tagId forKey:webTitle];
+				
+				if([tagCounts objectForKey:webTitle] == nil) {
+					[tagCounts setObject:[NSNumber numberWithInt:1] forKey:webTitle];
+				} else {
+					NSNumber *currentCount = [tagCounts objectForKey:webTitle];
+					[tagCounts setObject:[NSNumber numberWithInt:[currentCount intValue] +1] forKey:webTitle];
+				}
+				
+				if([tagCounts objectForKey:webTitle] != nil) {
+					//NSInteger *currentCount = [tagCounts objectForKey:[tag objectForKey:@"webTitle"]];
+					//[tags setObject:[NSNumber numberWithInt:currentCount++] forKey:[tag objectForKey:@"webTitle"]];
+				} else {
+					//[tagCounts setObject:[NSNumber numberWithInt:0] forKey:webTitle];
+				}
+			}
+		}
+		
+	}
+
 	[articles reloadData];
 }
 
@@ -43,9 +89,10 @@
 		displaySearchTerms.text = [NSString stringWithFormat: @"You searched for %@", searchTerm];
 		
 		NSString* apiURL = [NSString stringWithFormat:@"http://content.guardianapis.com/search?q=%@&page-size=10&order-by=newest&format=json&show-fields=trailText&show-tags=all", searchTerm, 10];		
-		[[ASyncJSONDownloader sharedASyncJSONDownloader] queueJSONDownloadFromURLString:apiURL target:self userInfo:@"Search"];
+		[[ASyncJSONDownloader sharedASyncJSONDownloader] queueJSONDownloadFromURLString:apiURL target:self userInfo:@""];
 	}
 	
+	NSLog(@"Done API Search");
 	
 }
 
@@ -72,6 +119,8 @@
 
 		cell.textLabel.text = [result objectForKey:@"webTitle"]; 
 	}
+		
+	resultsMessage.text = [@"Results: " stringByAppendingString:[[resultsDict objectForKey:@"total"]stringValue]];
 	
 	return cell;
 }
@@ -124,7 +173,13 @@
 - (void)dealloc {
     [super dealloc];
 	[label release];
+	[tags release];
+	[tagCounts release];
 	[button release];
+	[resultsMessage release];
+	[articles release];
+	[searchTerms release];
+	[displaySearchTerms release];
 	[guardianLogo release];
 }
 

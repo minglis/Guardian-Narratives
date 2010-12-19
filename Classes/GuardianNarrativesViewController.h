@@ -11,17 +11,21 @@
 
 
 @interface GuardianNarrativesViewController : UIViewController <UITextFieldDelegate, ASyncDownloadOperationDelegate, UITableViewDataSource, UITableViewDelegate>{
-	UILabel *label;
-	UILabel *displaySearchTerms;
-	UITextField *searchTerms;
+	IBOutlet UILabel *label;
+	IBOutlet UILabel *displaySearchTerms;
+	IBOutlet UILabel *resultsMessage;
+	IBOutlet UITextField *searchTerms;
 	UIButton *button;
 	IBOutlet UIImageView *guardianLogo;
 	NSObject *results;
 	IBOutlet UITableView *articles;
+	NSMutableDictionary *tags;
+	NSMutableDictionary *tagCounts;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *articles;
 @property (nonatomic, retain) IBOutlet UILabel *label;
+@property (nonatomic, retain) IBOutlet UILabel *resultsMessage;
 @property (nonatomic, retain) IBOutlet UILabel *displaySearchTerms;
 @property (nonatomic, retain) IBOutlet UITextField *searchTerms;
 @property (nonatomic, retain) IBOutlet UIImageView *guardianLogo;
