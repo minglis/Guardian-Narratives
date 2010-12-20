@@ -19,7 +19,6 @@
 	IBOutlet UIImageView *guardianLogo;
 	NSObject *results;
 	IBOutlet UITableView *articles;
-	NSMutableDictionary *tags;
 	NSMutableDictionary *tagCounts;
 }
 
@@ -29,8 +28,10 @@
 @property (nonatomic, retain) IBOutlet UILabel *displaySearchTerms;
 @property (nonatomic, retain) IBOutlet UITextField *searchTerms;
 @property (nonatomic, retain) IBOutlet UIImageView *guardianLogo;
+@property (nonatomic, retain) IBOutlet UINavigationController *navController;
 
 - (IBAction) submitSearch:(id) sender;
+- (IBAction) submitTagSearch:(id) sender;
 
 @end
 

@@ -15,6 +15,9 @@
 		2899E5220DE3E06400AC0155 /* GuardianNarrativesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* GuardianNarrativesViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* GuardianNarrativesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* GuardianNarrativesViewController.m */; };
+		7E39CCEC12BE8F3900C5AF4F /* ArticleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E39CCEA12BE8F3900C5AF4F /* ArticleController.m */; };
+		7E39CCED12BE8F3900C5AF4F /* ArticleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E39CCEB12BE8F3900C5AF4F /* ArticleController.xib */; };
+		7E77C22E12BF4F4400CD9EC3 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E77C22D12BF4F4400CD9EC3 /* Article.m */; };
 		7E7CCB3C12BD371B003660A7 /* ASyncDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CCB2B12BD371B003660A7 /* ASyncDownloadOperation.m */; };
 		7E7CCB3D12BD371B003660A7 /* ASyncJSONDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CCB2D12BD371B003660A7 /* ASyncJSONDownloader.m */; };
 		7E7CCB3E12BD371B003660A7 /* ASyncJSONDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CCB2F12BD371B003660A7 /* ASyncJSONDownloadOperation.m */; };
@@ -39,6 +42,11 @@
 		28D7ACF70DDB3853001CB0EB /* GuardianNarrativesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuardianNarrativesViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* GuardianNarratives_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuardianNarratives_Prefix.pch; sourceTree = "<group>"; };
+		7E39CCE912BE8F3900C5AF4F /* ArticleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleController.h; path = Projects/iPad/GuardianNarratives/Classes/ArticleController.h; sourceTree = DEVELOPER_DIR; };
+		7E39CCEA12BE8F3900C5AF4F /* ArticleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleController.m; path = Projects/iPad/GuardianNarratives/Classes/ArticleController.m; sourceTree = DEVELOPER_DIR; };
+		7E39CCEB12BE8F3900C5AF4F /* ArticleController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ArticleController.xib; path = Projects/iPad/GuardianNarratives/Classes/ArticleController.xib; sourceTree = DEVELOPER_DIR; };
+		7E77C22C12BF4F4400CD9EC3 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Article.h; path = Projects/iPad/GuardianNarratives/Classes/Article.h; sourceTree = DEVELOPER_DIR; };
+		7E77C22D12BF4F4400CD9EC3 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Article.m; path = Projects/iPad/GuardianNarratives/Classes/Article.m; sourceTree = DEVELOPER_DIR; };
 		7E7CCB2A12BD371B003660A7 /* ASyncDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASyncDownloadOperation.h; path = Projects/iPad/GuardianNarratives/Classes/ASyncDownloadOperation.h; sourceTree = DEVELOPER_DIR; };
 		7E7CCB2B12BD371B003660A7 /* ASyncDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASyncDownloadOperation.m; path = Projects/iPad/GuardianNarratives/Classes/ASyncDownloadOperation.m; sourceTree = DEVELOPER_DIR; };
 		7E7CCB2C12BD371B003660A7 /* ASyncJSONDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASyncJSONDownloader.h; path = Projects/iPad/GuardianNarratives/Classes/ASyncJSONDownloader.h; sourceTree = DEVELOPER_DIR; };
@@ -93,6 +101,10 @@
 				1D3623250D0F684500981E51 /* GuardianNarrativesAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* GuardianNarrativesViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* GuardianNarrativesViewController.m */,
+				7E39CCE912BE8F3900C5AF4F /* ArticleController.h */,
+				7E39CCEA12BE8F3900C5AF4F /* ArticleController.m */,
+				7E77C22C12BF4F4400CD9EC3 /* Article.h */,
+				7E77C22D12BF4F4400CD9EC3 /* Article.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -129,6 +141,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7E39CCEB12BE8F3900C5AF4F /* ArticleController.xib */,
 				7E7CCB3012BD371B003660A7 /* JSON */,
 				7ECD98A112BD140200E49FB7 /* guardian_logo.png */,
 				2899E5210DE3E06400AC0155 /* GuardianNarrativesViewController.xib */,
@@ -221,6 +234,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* GuardianNarrativesViewController.xib in Resources */,
 				7ECD98A212BD140200E49FB7 /* guardian_logo.png in Resources */,
+				7E39CCED12BE8F3900C5AF4F /* ArticleController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +256,8 @@
 				7E7CCB4112BD371B003660A7 /* SBJsonBase.m in Sources */,
 				7E7CCB4212BD371B003660A7 /* SBJsonParser.m in Sources */,
 				7E7CCB4312BD371B003660A7 /* SBJsonWriter.m in Sources */,
+				7E39CCEC12BE8F3900C5AF4F /* ArticleController.m in Sources */,
+				7E77C22E12BF4F4400CD9EC3 /* Article.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

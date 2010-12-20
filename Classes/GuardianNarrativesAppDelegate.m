@@ -13,6 +13,11 @@
 
 @synthesize window;
 @synthesize viewController;
+@synthesize navController;
+@synthesize resultsDict;
+@synthesize resultsArray;
+@synthesize stripTags;
+@synthesize tags;
 
 
 #pragma mark -
@@ -21,9 +26,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after app launch. 
-    [self.window addSubview:viewController.view];
+	navController.viewControllers = [NSArray arrayWithObject:viewController];
+	[self.window addSubview:navController.view];
     [self.window makeKeyAndVisible];
-
 	return YES;
 }
 
